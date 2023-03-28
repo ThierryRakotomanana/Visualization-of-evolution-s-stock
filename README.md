@@ -13,7 +13,7 @@ Once your data is loaded, use the animint() function to start creating your visu
 ```r
 library(animint2)
 
-data <- read.csv("your_file.csv")
+data <- read.csv("stock.csv")
 
 p <- ggplot(data, aes(x = date, y = price, color = company)) +
   geom_line() +

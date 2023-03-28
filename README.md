@@ -10,3 +10,4 @@ p <- ggplot(data, aes(x = date, y = prix, color = entreprise)) +
 
 anim <- animint(p, data = data, ggplot_build = TRUE)
 
+plot(anim)

@@ -33,3 +33,5 @@ Your data visualization will be opened in your default web browser. You can also
 ```r
 saveHTML(anim, "filename.html")
 ```
+
+That's all you need to do to create a data visualization with animint2. Of course, you can add more customization and styling options to enhance your visualization.
